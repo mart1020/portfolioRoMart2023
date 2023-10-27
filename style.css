@@ -173,6 +173,258 @@ h6{
 /*--------------------------------*/
 /*--------------------------------*/
 
+body {/*.----------------------------------*/
+/*FONT-------------------------*/
+/**/
+    
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nunito:wght@500&family=Pixelify+Sans&family=Source+Code+Pro&display=swap');
+    
+
+    
+/**/
+
+body{
+
+    color: white;
+    
+}
+/*--------------------------------*/
+/*-----NAVEGACION---------------------------*/
+/*--------------------------------*/
+
+#navegacion {
+
+    background-color:#f4cc83;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    
+
+
+}
+
+li{
+    :hover{
+        background-color: #998052fb;
+        scale: 110%;
+    }
+}
+
+/*--------------------------------*/
+/*-----INICIO---------------------------*/
+/*--------------------------------*/
+
+#Inicio{
+    margin: 100px;
+
+}
+
+#img_inicio{
+
+scale: 115%;
+margin-left: -10%;
+
+}
+
+#p_inicio{
+
+    margin-left: -50%;
+    margin-top: 5%;
+
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+
+}
+
+#subtitulo{
+    font-family: 'Source Code Pro', monospace;
+}
+/*--------------------------------*/
+/*--------------------------------*/
+/*--------------------------------*/
+
+
+/*--------------------------------*/
+/*-----PRESENTACION---------------------------*/
+/*--------------------------------*/
+
+#presentacion{
+    margin-top: 400px;
+    margin-right: 100px;
+    padding-left: 200px;
+
+
+  
+}
+
+#presentacion_descripcion{
+    margin-left: 20%;
+    scale: 120%;
+}
+
+#presentacion_img{
+    margin-right: 13%;
+    margin-left: -35%;
+    padding-top: 50px;
+    scale: 110%;
+}
+
+
+/*--------------------------------*/
+/*------HABILIDADES--------------------------*/
+/*--------------------------------*/
+
+#habilidades_Card{
+    margin-top: 200px;
+    
+}
+
+h2{
+
+    font-family: 'Nunito', sans-serif;
+    margin: 20px;
+}
+
+h3{
+    font-family: 'Dancing Script', cursive;
+    padding: 10px;
+
+}
+#img_habilidades{
+    margin-top: 200px;
+    margin-left: 20%;
+    scale: 120%;
+}
+
+#habilidades_logos{
+    margin-right: 15%;
+}
+
+#logo_habilidades{
+
+    :hover{
+        scale: 105%;
+    }
+
+    
+}
+/*--------------------------------*/
+/*--------------------------------*/
+/*--------------------------------*/
+
+/*--------------------------------*/
+/*------EDUCACION--------------------------*/
+/*--------------------------------*/
+
+#educacion_Card{
+    margin-top: 300px;
+
+}
+
+h6{
+    font-family: 'Nunito', sans-serif;
+    margin-left: 50px;
+}
+
+#educacion_contenido{
+    margin-right: 10%;
+    margin-left: 20%;
+
+}
+
+#img_educacion{
+    scale: 115%;
+    margin-right: 10%;
+    margin-top: 4%;
+    
+}
+
+/*--------------------------------*/
+/*----PROYECTOS----------------------------*/
+/*--------------------------------*/
+#proyecto_Card{
+
+    margin-top: 300px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+#tarjetas_proyectos{
+    margin-left: 15%;
+    margin-top: 100px;
+}
+
+
+
+/*--------------------------------*/
+/*--------------------------------*/
+/*--------------------------------*/
+
+/*--------------------------------*/
+/*--------------------------------*/
+/*--------------------------------*/
+
+/*--------------------------------*/
+/*--------------------------------*/
+/*--------------------------------*/
+
+
+/*--------------------------------*/
+/*-------FOOTER-------------------------*/
+/*--------------------------------*/
+#footer_Card{
+    background-color: #f4cc83;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 100px;
+
+}
+
+#contenido_Footer{
+
+    padding: 30px;
+    margin-left: 10% ;
+}
+
+#img_footer{
+    margin-right: 200px;
+}
+
+#contactame_footer{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+#logo_contactame{
+    :hover{
+
+        scale: 120%;
+        background-color: #cbab6f;
+        border-radius: 50%;
+    }
+}
+
+#logo_contactame_mail{
+
+    :hover{
+
+        scale: 120%;
+        background-color: #cbab6f;
+        border-radius: 25%;
+    }
+    
+}
+
+#txt_footer{
+    margin-top: 50px;
+}
+
+
+
+/*--------------------------------*/
+/*--------------------------------*/
+/*--------------------------------*/
+
 body {
     margin: 0;
   }
@@ -196,3 +448,4 @@ body {
     height:200%;
     z-index: -1;
   }
+
